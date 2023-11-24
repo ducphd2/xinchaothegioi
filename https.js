@@ -1,10 +1,5 @@
 const express = require('express');
-const app = express();
-
-app.get('/', (req, res, next) => {
-  console.log('Hello world');
-  res.send(200).json({ message: 'Hello world' });
-});
+const app = require('/server');
 
 require('greenlock-express')
   .init({
