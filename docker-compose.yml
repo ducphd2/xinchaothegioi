@@ -14,7 +14,7 @@ services:
       - mongo
 
   mongo:
-    container_name: mongodb_docker1
+    container_name: mongodb_docker2
     image: mongo
     ports:
       - '127.0.0.1:27017:27017'

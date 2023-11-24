@@ -9,7 +9,7 @@ app.get('/', (req, res, next) => {
 require('greenlock-express')
   .init({
     packageRoot: __dirname,
-    configDir: './greenlock.d',
+    configDir: 'greenlock.d',
     maintainerEmail: 'ducclone00@gmail.com',
     cluster: false,
   })

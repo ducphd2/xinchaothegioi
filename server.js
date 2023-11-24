@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 app.use(express.json(), express.urlencoded({ extended: false }));
 
 mongoose
-  .connect('mongodb://mongodb_docker1:27017/test')
+  .connect('mongodb://mongodb_docker2:27017/test')
   .then(() => console.log('MongoDB has been connected successfully'))
   .catch((err) => console.log(err));
 
