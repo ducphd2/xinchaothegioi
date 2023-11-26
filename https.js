@@ -1,8 +1,6 @@
 const express = require('express');
 const app = require('./server');
 
-console.log('__dirname', __dirname);
-
 require('greenlock-express')
   .init({
     packageRoot: __dirname,
