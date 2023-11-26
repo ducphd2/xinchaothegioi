@@ -43,3 +43,5 @@ mongodb
 
 # Ignore all .png files in the temp directory
 temp/**/*.png
+
+/greenlock.d
