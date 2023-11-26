@@ -8,6 +8,7 @@ require('greenlock-express')
     packageRoot: __dirname,
     configDir: 'greenlock.d',
     maintainerEmail: 'ducclone00@gmail.com',
+    subscriberEmail: 'ducclone00@gmail.com',
     cluster: false,
   })
   .serve(app);
